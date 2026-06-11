@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">pixcels_assessment</string>
+    <string name="app_title">Pi-Xcels Encryption</string>
+    <string name="input_description">Enter a string to securely encrypt using our native C++ core.</string>
+    <string name="input_label">UTF-8 String</string>
+    <string name="encrypt_button_text">Encrypt and Send</string>
+    <string name="result_title">Encryption Result</string>
+    <string name="back_description">Back</string>
+    <string name="copy_description">Copy</string>
+    <string name="copy_success_message">Ciphertext copied to clipboard</string>
+    <string name="result_header">Secure Ciphertext</string>
+    <string name="result_description">This string was encrypted using RSA-OAEP-256 in our native C++ core.</string>
+    <string name="encrypt_another_button">Encrypt Another String</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.Pixcels_assessment" parent="Theme.MaterialComponents.Light" />
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Pixelated Pi Symbol for Foreground -->
+    <!-- Base Plate -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,34h40v6h-40z M44,40h6v34h-6z M58,40h6v34h-6z" />
+    <!-- Pixel accents -->
+    <path
+        android:fillColor="#F4FBF9"
+        android:pathData="M34,34h6v6h-6z M68,34h6v6h-6z" />
+</vector>
