@@ -161,7 +161,7 @@ std::string encryptWithRsaNativeOrchestrated(JNIEnv* env, const std::string& nBa
 }
 
 extern "C" JNIEXPORT jstring JNICALL
-Java_com_example_pixcels_1assessment_data_datasource_NativeEncryptionDataSourceImpl_encryptAndSend(
+Java_com_arfakhsy_pixcels_1assessment_data_datasource_NativeEncryptionDataSourceImpl_encryptAndSend(
         JNIEnv* env,
         jobject thiz,
         jstring input) {
@@ -195,7 +195,7 @@ Java_com_example_pixcels_1assessment_data_datasource_NativeEncryptionDataSourceI
 }
 
 extern "C" JNIEXPORT jstring JNICALL
-Java_com_example_pixcels_1assessment_data_datasource_NativeEncryptionDataSourceImpl_stringFromJNI(
+Java_com_arfakhsy_pixcels_1assessment_data_datasource_NativeEncryptionDataSourceImpl_stringFromJNI(
         JNIEnv* env,
         jobject /* this */) {
     return env->NewStringUTF("Hello from Pi-Xcels Native Core");
