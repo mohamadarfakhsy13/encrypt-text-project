@@ -7,17 +7,17 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pixcels_assessment"
+    namespace = "com.arfakhsy.pixcels_assessment"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.example.pixcels_assessment"
+        applicationId = "com.arfakhsy.pixcels_assessment"
         minSdk = 30
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "com.example.pixcels_assessment.runner.CustomTestRunner"
+        testInstrumentationRunner = "com.arfakhsy.pixcels_assessment.runner.CustomTestRunner"
     }
 
     buildTypes {
